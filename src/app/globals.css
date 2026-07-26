@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+:root {
+    --font-noto-serif: "Noto Serif", "Noto Serif Fallback", serif;
+}
+
 @theme inline {
     --font-noto-serif: var(--font-noto-serif);
+    --color-primary: #465778;
+    --color-secondary: #8793a8;
 }
